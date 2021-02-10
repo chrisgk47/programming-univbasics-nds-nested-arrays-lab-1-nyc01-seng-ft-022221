@@ -41,6 +41,6 @@ def matrix_update(matrix, row, column, new_value)
   ]
 
   updated_array = [matrix[row][column] = new_value]
-  updated_array[0][0]
+  updated_array[0]
 
 end
