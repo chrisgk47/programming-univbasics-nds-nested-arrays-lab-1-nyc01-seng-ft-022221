@@ -35,23 +35,6 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  matrix = [
-    CONVENTIONAL_PRODUCE = [
-      "Grapefruit",
-      "Pineapple",
-      "Lemons",
-      "Watermelon",
-      "Eggplant"
-    ],
-
-      ORGANIC_PRODUCE = [
-        "Strawberries",
-        "Potatoes",
-        "Grapes",
-        "Avocadoes",
-        "Asparagus"
-      ]
-
-      matrix[row][column]
-
+  matrix[row][column] = new_value
+  matrix
 end
