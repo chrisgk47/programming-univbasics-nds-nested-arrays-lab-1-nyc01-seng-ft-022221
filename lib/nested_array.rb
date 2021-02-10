@@ -35,6 +35,10 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
+  matrix = [
+    CONVENTIONAL_PRODUCE,
+    ORGANIC_PRODUCE
+  ]
   new_value = "Lemons"
   matrix[0][2] = new_value
 end
