@@ -18,20 +18,8 @@ CONVENTIONAL_PRODUCE = [
 
 def assembled_matrix
   [
-    [
-      "Grapefruit",
-      "Pineapple",
-      "Oranges",
-      "Watermelon",
-      "Eggplant"
-    ],
-    [
-      "Strawberries",
-      "Potatoes",
-      "Grapes",
-      "Avocadoes",
-      "Asparagus"
-    ]
+    CONVENTIONAL_PRODUCE,
+    ORGANIC_PRODUCE
   ]
 end
 
@@ -43,11 +31,7 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  [
-    CONVENTIONAL_PRODUCE,
-    ORGANIC_PRODUCE
-  ]
-
+  matrix[row, column]
 end
 
 def matrix_update(matrix, row, column, new_value)
