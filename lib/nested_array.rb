@@ -40,7 +40,7 @@ def matrix_update(matrix, row, column, new_value)
     ORGANIC_PRODUCE
   ]
 
-  updated_array = [matrix[row][column] = new_value]
-  updated_array[0]
+  matrix[row][column] = new_value
+  
 
 end
