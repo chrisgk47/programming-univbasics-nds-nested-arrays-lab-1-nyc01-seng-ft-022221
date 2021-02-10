@@ -35,5 +35,10 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  matrix[column][row]
+  [
+    CONVENTIONAL_PRODUCE,
+    ORGANIC_PRODUCE
+  ]
+
+  matrix[column][row] = new_value
 end
