@@ -36,9 +36,22 @@ end
 
 def matrix_update(matrix, row, column, new_value)
   matrix = [
-    [CONVENTIONAL_PRODUCE],
-    [ORGANIC_PRODUCE]
-  ]
-  new_value = "Lemons"
-  matrix[0][2] = new_value
+    CONVENTIONAL_PRODUCE = [
+      "Grapefruit",
+      "Pineapple",
+      "Lemons",
+      "Watermelon",
+      "Eggplant"
+    ],
+
+      ORGANIC_PRODUCE = [
+        "Strawberries",
+        "Potatoes",
+        "Grapes",
+        "Avocadoes",
+        "Asparagus"
+      ]
+
+      matrix[row][column]
+
 end
